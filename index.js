@@ -1,15 +1,2 @@
-const express = require("express");
-//const 
-
-let app = express()
-let port = app.listen(5050)
-
-
-app.get('/', function(req, res) {
-    res.sendFile(__dirname + "/index.html")
-})
-
-app.listen(port, function() {
-    console.log('start! express server');
-})
-
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<h1>Hello, world!</h1>);
